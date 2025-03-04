@@ -1,0 +1,12 @@
+a. Projekt kompilieren und ausführen:
+Aktion: Achte darauf, dass dein Projekt ohne zusätzliche Konfiguration (z. B. Verzeichnistrukturen, Abhängigkeiten) nach dem Klonen des Repositories sofort kompilierbar und ausführbar ist. Dies bedeutet:
+Verwendung von NuGet-Packages: Stelle sicher, dass alle benötigten NuGet-Pakete (z. B. SQLite) im Projekt eingebunden sind.
+SQLite-Datenbank: Falls noch keine SQLite-Datenbank existiert, sollte sie beim Start des Programms automatisch erstellt werden.
+Testen: Teste das Projekt nach dem Klonen aus, insbesondere im Schulnetzwerk, um sicherzustellen, dass alle externen Abhängigkeiten korrekt gehandhabt werden.
+b. Überflüssige Dateien vermeiden:
+Aktion: Achte darauf, dass keine überflüssigen Dateien wie der bin-Ordner oder temporäre Dateien im Repository landen. Nutze eine .gitignore-Datei, um sicherzustellen, dass nur relevante Dateien gespeichert werden.
+c. Datenbank und Beispieldaten:
+Aktion: Beim ersten Start des Programms sollte automatisch geprüft werden, ob die SQLite-Datenbank existiert. Falls nicht, soll sie erstellt und mit Beispieldaten (mindestens 3 Einträge pro Tabelle) befüllt werden.
+Du kannst dies beispielsweise durch ein einfaches Skript im Programmstart erreichen, das überprüft, ob die Datenbank existiert und falls nicht, diese erstellt und mit Beispieldaten anreichert.
+d. Verhindern von mehrfacher Dateneingabe:
+Aktion: Stelle sicher, dass die Beispieldaten nicht mehrfach eingefügt werden. Dies kannst du durch eine Überprüfung vor der Einfügung der Daten erreichen, z. B. durch eine Prüfung, ob bestimmte Einträge bereits vorhanden sind.
