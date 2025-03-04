@@ -1,0 +1,8 @@
+a. Strukturierter Code:
+Aktion: Halte den Code gut strukturiert, indem du klar voneinander getrennte Klassen und Methoden verwendest. Ein gutes Prinzip ist die Trennung von Logik.
+b. Sinnvolle Namen für Methoden und Variablen:
+Aktion: Verwende sprechende Namen für Methoden und Variablen, die deren Funktion klar widerspiegeln (z. B. SaveUserData(), GetDatabaseConnection()).
+c. Gute Formatierung:
+Aktion: Achte darauf, dass der Code gut formatiert ist (Einrückungen, Leerzeilen), um die Lesbarkeit zu verbessern.
+d. Vermeidung von Code-Duplikaten:
+Aktion: Reduziere Duplikationen durch Wiederverwendung von Code, z. B. durch das Erstellen von Hilfsmethoden oder allgemeinen Funktionen.
