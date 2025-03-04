@@ -1,0 +1,8 @@
+a. Geforderte Funktionalität:
+Aktion: Implementiere alle geforderten und geplanten Funktionen gemäß den Anforderungen. Dazu gehört auch die Verbindung zu SQLite und das Handling von Nutzereingaben.
+b. Datenbankverbindung:
+Aktion: Achte darauf, dass die Datenbankverbindung korrekt funktioniert und alle CRUD-Operationen (Create, Read, Update, Delete) ohne Fehler ablaufen.
+c. Keine offensichtlichen Fehler:
+Aktion: Teste das Projekt gründlich auf mögliche Fehlerquellen und behebe diese. Nutze auch Logging, um eventuelle Fehler zu verfolgen.
+d. Überprüfung von Nutzereingaben:
+Aktion: Implementiere Validierungen, um sicherzustellen, dass Eingaben des Nutzers korrekt sind (z. B. keine leeren Felder, keine ungültigen Zeichen). Dies kann durch Regular Expressions oder Eingabefilter erfolgen.
