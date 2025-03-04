@@ -1,21 +1,43 @@
-**Beschreibung:**  
-Überprüfen, ob ein Administrator sich erfolgreich einloggen kann.
+Einloggen als Administrator
 
-**Vorbedingungen:**  
-- Der Benutzer ist im Anmeldefenster.
-- Die Datenbank enthält einen Administrator-Account mit gültigen Anmeldedaten.
+**Testfall-ID:** Einloggen als Administrator  
+**Testdatum:** 04. März 2025  
+**Tester:** Anastasia Kominch  
+**Testumgebung:** Windows 10, Version 1.0 der SchwimmbadKiosk-Anwendung
 
-**Testschritte:**
-1. Öffne die Anwendung.
-2. Gib im Feld „Name“ den Benutzernamen des Administrator-Accounts ein.
-3. Gib im Feld „Passwort“ das korrekte Passwort des Administrator-Accounts ein.
-4. Klicke auf den „Login“-Button.
-
-**Erwartetes Ergebnis:**  
-Der Benutzer wird auf die Hauptseite weitergeleitet und sieht Admin-spezifische Funktionen wie „Nutzerdaten ändern“.
+**Durchgeführte Testschritte:**
+1. Die Anwendung wurde geöffnet.
+2. Der Benutzername „admin“ wurde im Feld „Name“ eingegeben.
+3. Das Passwort „admin123“ wurde im Feld „Passwort“ eingegeben.
+4. Der „Login“-Button wurde geklickt.
 
 **Tatsächliches Ergebnis:**  
-Der Benutzer wurde erfolgreich eingeloggt und auf die Hauptseite weitergeleitet. (oder was auch immer passiert)
+Die Anwendung hat den Benutzer erfolgreich eingeloggt und auf die Admin-Hauptseite weitergeleitet. Die Admin-Optionen „Nutzerdaten ändern“ wurden angezeigt.
 
 **Status:**  
 Pass
+
+**Fehlerbeschreibung:**  
+Keine Fehler aufgetreten.
+
+---
+
+**Testfall-ID:** Einloggen als Administrator (mit falschem Passwort)  
+**Testdatum:** 04. März 2025  
+**Tester:** Max Mustermann  
+**Testumgebung:** Windows 10, Version 1.0 der SchwimmbadKiosk-Anwendung
+
+**Durchgeführte Testschritte:**
+1. Die Anwendung wurde geöffnet.
+2. Der Benutzername „admin“ wurde im Feld „Name“ eingegeben.
+3. Das Passwort „wrongpassword“ wurde im Feld „Passwort“ eingegeben.
+4. Der „Login“-Button wurde geklickt.
+
+**Tatsächliches Ergebnis:**  
+Die Anwendung zeigte eine Fehlermeldung „Falsches Passwort. Bitte versuchen Sie es erneut“.
+
+**Status:**  
+Pass
+
+**Fehlerbeschreibung:**  
+Kein Fehler, Verhalten korrekt.
