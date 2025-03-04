@@ -1,0 +1,21 @@
+**Beschreibung:**  
+Überprüfen, ob ein Administrator sich erfolgreich einloggen kann.
+
+**Vorbedingungen:**  
+- Der Benutzer ist im Anmeldefenster.
+- Die Datenbank enthält einen Administrator-Account mit gültigen Anmeldedaten.
+
+**Testschritte:**
+1. Öffne die Anwendung.
+2. Gib im Feld „Name“ den Benutzernamen des Administrator-Accounts ein.
+3. Gib im Feld „Passwort“ das korrekte Passwort des Administrator-Accounts ein.
+4. Klicke auf den „Login“-Button.
+
+**Erwartetes Ergebnis:**  
+Der Benutzer wird auf die Hauptseite weitergeleitet und sieht Admin-spezifische Funktionen wie „Nutzerdaten ändern“.
+
+**Tatsächliches Ergebnis:**  
+Der Benutzer wurde erfolgreich eingeloggt und auf die Hauptseite weitergeleitet. (oder was auch immer passiert)
+
+**Status:**  
+Pass
