@@ -1,0 +1,3 @@
+a. Strukturiertes Layout:
+Aktion: Achte darauf, dass das Layout der Benutzeroberfläche klar und strukturiert ist. Nutze WPF-Elemente wie Grid, StackPanel und DockPanel für eine saubere Anordnung.
+Tipp: Nutze Styles und Templates, um die UI einheitlich zu gestalten und eine professionelle Optik zu gewährleisten.
